@@ -1,0 +1,11 @@
+{
+  "name": "fds-algoprog",
+  "private": true,
+  "scripts": {
+    "start": "myst start",
+    "build": "myst build --html"
+  },
+  "devDependencies": {
+    "mystmd": "1.11.0"
+  }
+}

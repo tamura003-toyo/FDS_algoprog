@@ -1,0 +1,16 @@
+version: 1
+project:
+  id: c4dcea7a-b980-4de7-802e-98e201b329e8
+  title: FDS アルゴリズムとプログラミング
+  description: 東洋大学 食環境科学部フードデータサイエンス学科「アルゴリズムとプログラミング」の授業サポートサイト
+  authors:
+    - name: Ryuichi Tamura
+  github: https://github.com/tamura003-toyo/FDS_algoprog
+  toc:
+    - file: index.md
+    - file: OD1_vscode_setup.md
+site:
+  template: book-theme
+  title: アルゴリズムとプログラミング
+  options:
+    folders: true

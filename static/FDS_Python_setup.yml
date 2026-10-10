@@ -1,0 +1,32 @@
+# Python-only
+name: DS
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.14
+  - numpy
+  - pandas
+  - scipy
+  - openpyxl
+  - pyarrow
+  - matplotlib
+  - matplotlib-fontja
+  - plotly
+  - scikit-learn
+  - statsmodels
+  - imbalanced-learn
+  - xgboost
+  - lightgbm
+  - catboost>=1.2.9
+  - optuna
+  - shap
+  - umap-learn
+  - mlxtend
+  - networkx
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - nbformat
+  - pip
