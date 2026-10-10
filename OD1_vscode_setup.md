@@ -2,7 +2,7 @@
 title: VSCodeを設定する
 subject: Ondemand Tutorial
 subtitle: RとPythonのプログラミング環境の整備
-short_title: How to MyST
+short_title: VSCodeを設定する
 authors:
   - name: Ryuichi Tamura
     affiliations:
