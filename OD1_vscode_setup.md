@@ -249,7 +249,7 @@ Python環境は、**Miniforge3**(ミニフォージ3)という仮想環境シス
 
 https://conda-forge.org/download/ をWebブラウザで開きます。`Windows x86_64`をクリックして、Miniforgeのインストーラーをダウンロードします。
 
-```{figure} images/Mamba_install0.png
+```{figure} images/mamba_install0.png
 :width: 80%
 Miniforge3 Installer (Windows用)のダウンロード
 ```
@@ -572,7 +572,7 @@ Python環境は、**Miniforge3**(ミニフォージ3)という仮想環境シス
 
 https://conda-forge.org/download/ をWebブラウザで開きます。`macOS arm64 (Apple Sillicon)`をクリックして、Miniforgeのインストーラーをダウンロードします。
 
-```{figure} images/Mamba_install0.png
+```{figure} images/mamba_install0.png
 :width: 80%
 Miniforge3 Installer (Mac用)のダウンロード
 ```
