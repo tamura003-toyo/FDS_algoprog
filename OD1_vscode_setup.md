@@ -214,14 +214,25 @@ Jupyter拡張でインストールされた1+4=5パッケージ群
 2026年10月現在、Windows版VSCodeのPython拡張には小さな不具合があり、Pythonでグラフを表示するとVSCodeがクラッシュする現象が報告されています。次の設定を実行して、この不具合を回避するようにします。
 
 1. VSCodeで、「Ctrl」キーを押しながら`,`を押します。
-2. VSCodeの設定ウィンドウが起動します。<img src="images/vscode_option1.png"></img>
+2. VSCodeの設定ウィンドウが起動します。
+
+<img src="images/vscode_option1.png"></img>
+
 3. **検索設定**に、次のように入力してください。
 
    `python.useEnvironments`
 
-4. すると、画面が少し変化して、下のようになります。<img src="images/vscode_python_option_change1.png"></img>
-5. 下図に従って、チェックを1箇所外して下さい。<img src="images/vscode_python_option_change2.png"></img>
-6. 以上で作業は終了です。下図のように、設定画面の右上にあるXボタンをクリックして、この画面を閉じて下さい。<img src="images/vscode_python_option_fin.png"></img>
+4. すると、画面が少し変化して、下のようになります。
+
+<img src="images/vscode_python_option_change1.png"></img>
+
+5. 下図に従って、チェックを1箇所外して下さい。
+
+<img src="images/vscode_python_option_change2.png"></img>
+
+6. 以上で作業は終了です。下図のように、設定画面の右上にあるXボタンをクリックして、この画面を閉じて下さい。
+
+<img src="images/vscode_python_option_fin.png"></img>
 
 なお、この作業中に、VSCode画面に「無効なPythonインタープリターが選択されています」のような警告画面が出てくることがありますが、環境設定への影響はないので、無視して大丈夫です。
 ```
