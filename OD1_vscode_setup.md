@@ -476,7 +476,9 @@ python -m ipykernel install --user --name ds-python --display-name "Python(DS)"
 
 ## R環境のインストールと設定
 
-[ここ](https://www.dropbox.com/scl/fi/hgry3uj5tm6frt3y8n85k/FDS_R_setup.R?rlkey=217f99c6obnqysn3p8xphjecc&dl=1)をクリックして、`FDS_R_setup.R`をダウンロードします。パソコンのダウンロードフォルダに`FDS_R_setup.R`が入っていますので、RStudioで、これを開きます。
+[ここ](static/FDS_R_setup.R)をクリックして、`FDS_R_setup.R`をダウンロードします。パソコンのダウンロードフォルダに`FDS_R_setup.R`が入っていますので、RStudioで、これを開きます。
+
+このスクリプトは、既定のインストール先に加え、`C:¥miniforge3` または `C:¥miniforge` にインストールした場合にも対応しています。以前ダウンロードしたスクリプトをお持ちの方も、上のリンクから最新版をダウンロードしてください。
 
 1. RStudioの[File]メニューをクリック。
 2. [Open File...]をクリック。
