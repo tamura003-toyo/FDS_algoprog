@@ -21,7 +21,7 @@ keywords: myst, markdown, open-science
 「プログラミング基礎」や「多変量解析」の授業で使ったはずの「**RStudio**」はインストールされていますか？
 この設定文書では、RStudioがインストールされていることを前提とします。
 
-```{figure} images/rstudio.png
+```{figure} images/OD1/rstudio.png
 :label: fig-rstudio
 :width: 60%
 RStudioに、のちほどこの授業で使うRのパッケージを追加インストールしていきます。
@@ -55,7 +55,7 @@ RStudioに、のちほどこの授業で使うRのパッケージを追加イン
 
 **専用フォルダ**はどこに作ってもらっても構いません。
 
-```{figure} images/win_create_DSfolder.png
+```{figure} images/OD1/win_create_DSfolder.png
 :label: fig-win-create-dsfolder
 :width: 80%
 授業専用フォルダを作成する
@@ -71,7 +71,7 @@ RStudioに、のちほどこの授業で使うRのパッケージを追加イン
 
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)をクリックして、VSCodeのインストールページに飛びます。
 
-```{figure} images/win_vscode_download0.png
+```{figure} images/OD1/win_vscode_download0.png
 :label: fig-win-vscode-download0
 :width: 60%
 VSCode (Visual Studio Code)のダウンロードページ
@@ -79,14 +79,14 @@ VSCode (Visual Studio Code)のダウンロードページ
 
 Windowsのリンクをクリックして、インストーラーをダウンロードしてください。
 
-```{figure} images/win_vscode_download1.png
+```{figure} images/OD1/win_vscode_download1.png
 :label: fig-win-vscode-download1
 :width: 60%
 ```
 
 Windowsのダウンロードフォルダを開いて、`VSCodeUserSetup-x64-XXXXX.exe`という名前のインストーラをダブルクリックし、インストールを開始します。
 
-```{figure} images/win_vscode_download2.png
+```{figure} images/OD1/win_vscode_download2.png
 :label: fig-win-vscode-download2
 :width: 60%
 ダウンロードフォルダの中にあるインストーラーを見つけて、ダブルクリック。
@@ -94,19 +94,19 @@ Windowsのダウンロードフォルダを開いて、`VSCodeUserSetup-x64-XXXX
 
 ### インストール・ステップバイステップ
 
-```{figure} images/win_install0.png
+```{figure} images/OD1/win_install0.png
 :label: fig-win-install0
 :width: 60%
 「同意する」をチェックして、[次]へ。
 ```
 
-```{figure} images/win_install1.png
+```{figure} images/OD1/win_install1.png
 :label: fig-win-install1
 :width: 60%
 インストールパスは変更せず、[次]へ。
 ```
 
-```{figure} images/win_install2.png
+```{figure} images/OD1/win_install2.png
 :label: fig-win-install2
 :width: 60%
 何も変更せず、[次]へ。
@@ -114,7 +114,7 @@ Windowsのダウンロードフォルダを開いて、`VSCodeUserSetup-x64-XXXX
 
 **次に出現する「追加タスク」は注意**が必要です。「その他」にある**4つのオプション**全てにチェック✅を入れてください。
 
-```{figure} images/win_install3.png
+```{figure} images/OD1/win_install3.png
 :label: fig-win-install3
 :width: 60%
 「その他」に全てチェックを入れる！
@@ -122,7 +122,7 @@ Windowsのダウンロードフォルダを開いて、`VSCodeUserSetup-x64-XXXX
 
 インストールが始まります。少々お待ちください。。。
 
-```{figure} images/win_install4.png
+```{figure} images/OD1/win_install4.png
 :label: fig-win-install4
 :width: 60%
 「その他」に全てチェックを入れる！
@@ -130,7 +130,7 @@ Windowsのダウンロードフォルダを開いて、`VSCodeUserSetup-x64-XXXX
 
 次の画面が出たら、VSCodeのインストールはおしまいです。
 
-```{figure} images/win_install5.png
+```{figure} images/OD1/win_install5.png
 :label: fig-win-install5
 :width: 60%
 インストール終了画面。最初の作業はおしまい。
@@ -138,7 +138,7 @@ Windowsのダウンロードフォルダを開いて、`VSCodeUserSetup-x64-XXXX
 
 [完了]をクリックすると、**VSCodeが自動的に起動します。**
 
-```{figure} images/win_vscode_startup1.png
+```{figure} images/OD1/win_vscode_startup1.png
 :label: fig-win-vscode-startup1
 :width: 100%
 VSCodeの最初の起動画面
@@ -156,7 +156,7 @@ VSCodeの最初の起動画面
 
 拡張はVSCode左側に出現する「Primaryサイドバー」からインストールします。サイドバーを出すために、VSCode右上にある4つの小さなアイコンのうち、左から2番目にあるアイコンをクリックしてください。
 
-```{figure} images/toggle_toolbar.png
+```{figure} images/OD1/toggle_toolbar.png
 :label: fig-toggle-toolbar
 :width: 100%
 黄色の矢印のアイコンをクリック。"Toggle Primary Side Bar"というポップアップが目印
@@ -168,7 +168,7 @@ VSCodeの最初の起動画面
 
 Primary サイドバーから、(1)左端にある拡張機能ボタンをクリックし、(2)`Extensions: Marketplace`という入力欄に`Japanese`と入力すると、(3) 拡張機能のトップに「Japanese Languae Pack」というのが出てきます（地球儀のアイコンが目印）。右下にある「Install」をクリックしてインストールを開始します。
 
-```{figure} images/JL_install.png
+```{figure} images/OD1/JL_install.png
 :label: fig-jl-install
 :width: 100%
 黄色の文字を順番に操作。Japanese Language Pack for Visual Studio Codeをインストールする。
@@ -177,7 +177,7 @@ Primary サイドバーから、(1)左端にある拡張機能ボタンをクリ
 インストールが完了しても、すぐには日本語表示にはなりません。VSCodeウィンドウ右下にある
 `Change Language and Restart`というボタンをクリックしてください。
 
-```{figure} images/JL_install2.png
+```{figure} images/OD1/JL_install2.png
 :label: fig-jl-install2
 :width: 100%
 日本語環境をONにするには、VSCodeを再起動する必要があります。
@@ -195,7 +195,7 @@ Primary サイドバーから、(1)左端にある拡張機能ボタンをクリ
 
 Japanese Language Packをインストールした**拡張機能:マーケットプレース**に、`jupyter`と入力します。すると拡張機能リストのトップに「`Jupyter`」が出現するので、右下の[インストール]をクリックして、拡張機能をインストールします。
 
-```{figure} images/Jupyter_install1.png
+```{figure} images/OD1/Jupyter_install1.png
 :label: fig-jupyter-install1
 :width: 100%
 `jupyter`と入力して、TOPでヒットした「Jupyter」をインストールする。
@@ -203,7 +203,7 @@ Japanese Language Packをインストールした**拡張機能:マーケット�
 
 この`Jupyter`拡張は、4つの追加的な拡張もまとめてインストールします。
 
-```{figure} images/Jupyter_install1.png
+```{figure} images/OD1/Jupyter_install1.png
 :label: fig-jupyter-install1-2
 :width: 100%
 ```
@@ -215,7 +215,7 @@ Japanese Language Packをインストールした**拡張機能:マーケット�
 * Jupyter Cell Tags
 * Jupyter Notebook Renderers
 
-```{figure} images/Jupyter_install3.png
+```{figure} images/OD1/Jupyter_install3.png
 :label: fig-jupyter-install3
 :width: 100%
 Jupyter拡張でインストールされた1+4=5パッケージ群
@@ -224,7 +224,7 @@ Jupyter拡張でインストールされた1+4=5パッケージ群
 ### Python拡張のインストール
 拡張機能の検索入力欄に、`Python`と入力してヒットした**Python**を同様にインストールしてください。
 
-```{figure} images/vscode_ext_python.png
+```{figure} images/OD1/vscode_ext_python.png
 :label: fig-vscode-ext-python
 :width: 100%
 インストールが終わったあとの状態。Python関連パッケージも一緒にインストールされる。
@@ -236,7 +236,7 @@ Jupyter拡張でインストールされた1+4=5パッケージ群
 1. VSCodeで、「Ctrl」キーを押しながら`,`を押します。
 2. VSCodeの設定ウィンドウが起動します。
 
-:::{figure} images/vscode_option1.png
+:::{figure} images/OD1/vscode_option1.png
 :label: fig-vscode-option1
 VSCodeの設定画面
 :::
@@ -247,21 +247,21 @@ VSCodeの設定画面
 
 4. すると、画面が少し変化して、下のようになります。
 
-:::{figure} images/vscode_python_option_change1.png
+:::{figure} images/OD1/vscode_python_option_change1.png
 :label: fig-vscode-python-option-change1
 Python環境設定の検索結果
 :::
 
 5. [下図](#fig-vscode-python-option-change2)に従って、チェックを1箇所外して下さい。
 
-:::{figure} images/vscode_python_option_change2.png
+:::{figure} images/OD1/vscode_python_option_change2.png
 :label: fig-vscode-python-option-change2
 Python環境設定のチェックを外す
 :::
 
 6. 以上で作業は終了です。[下図](#fig-vscode-python-option-fin)のように、設定画面の右上にあるXボタンをクリックして、この画面を閉じて下さい。
 
-:::{figure} images/vscode_python_option_fin.png
+:::{figure} images/OD1/vscode_python_option_fin.png
 :label: fig-vscode-python-option-fin
 設定画面を閉じる
 :::
@@ -281,7 +281,7 @@ Python環境は、**Miniforge3**(ミニフォージ3)という仮想環境シス
 
 https://conda-forge.org/download/ をWebブラウザで開きます。`Windows x86_64`をクリックして、Miniforgeのインストーラーをダウンロードします。
 
-```{figure} images/mamba_install0.png
+```{figure} images/OD1/mamba_install0.png
 :label: fig-mamba-install0
 :width: 80%
 Miniforge3 Installer (Windows用)のダウンロード
@@ -289,13 +289,13 @@ Miniforge3 Installer (Windows用)のダウンロード
 
 ダウンロードフォルダに`Miniforge3-Windows-x86_64`というインストーラーが保存されるので、これをダブルクリックして、インストールを開始します。
 
-```{figure} images/Mamba_install1.png
+```{figure} images/OD1/Mamba_install1.png
 :label: fig-mamba-install1
 :width: 100%
 ダウンロードしたインストーラーをダブルクリックしてインストーラーを起動する
 ```
 
-```{figure} images/miniforge3_install0.png
+```{figure} images/OD1/miniforge3_install0.png
 :label: fig-miniforge3-install0
 :width: 60%
 [Next >]をクリックしてインストール開始
@@ -303,13 +303,13 @@ Miniforge3 Installer (Windows用)のダウンロード
 
 #### インストール・ステップバイステップ
 
-```{figure} images/miniforge3_install1.png
+```{figure} images/OD1/miniforge3_install1.png
 :label: fig-miniforge3-install1
 :width: 60%
 [I Agree]をクリック
 ```
 
-```{figure} images/miniforge3_install2.png
+```{figure} images/OD1/miniforge3_install2.png
 :label: fig-miniforge3-install2
 :width: 60%
 Just me (recommended)にチェックが入っていることを確認して、[Next >]をクリック
@@ -317,7 +317,7 @@ Just me (recommended)にチェックが入っていることを確認して、[N
 
 **Destination Folder** (インストールするフォルダ)は、`C:¥Users¥(あなたのユーザー名)¥miniforge3`に設定されています。そのままにしておきます。
 
-```{figure} images/miniforge3_install3.png
+```{figure} images/OD1/miniforge3_install3.png
 :label: fig-miniforge3-install3
 :width: 80% 
 [Next >]をクリック。
@@ -325,26 +325,26 @@ Just me (recommended)にチェックが入っていることを確認して、[N
 
 次の画面では、**1、3、4番目にチェックを入れて(確認して)、[Install]をクリックします**。インストールが始まります。
 
-```{figure} images/miniforge3_install4.png
+```{figure} images/OD1/miniforge3_install4.png
 :label: fig-miniforge3-install4
 :width: 40% 
 ```
 
 インストールが終わるまで、少々お待ちください。
 
-```{figure} images/miniforge3_install5.png
+```{figure} images/OD1/miniforge3_install5.png
 :label: fig-miniforge3-install5
 :width: 340
 インストール中。。。
 ```
 
-```{figure} images/miniforge3_install6.png
+```{figure} images/OD1/miniforge3_install6.png
 :label: fig-miniforge3-install6
 :width: 340
 インストール終了。[Next >]をクリック
 ```
 
-```{figure} images/miniforge3_install7.png
+```{figure} images/OD1/miniforge3_install7.png
 :label: fig-miniforge3-install7
 :width: 340
 終了画面。[Finish]をクリックしてインストールを完了する。
@@ -356,7 +356,7 @@ Just me (recommended)にチェックが入っていることを確認して、[N
 
 デスクトップの検索入力🔍に`miniforge`と入力します。すると、`Miniforge Prompt`というアプリがヒットするので、これをクリックします。
 
-```{figure} images/win_miniforge_prompt.png
+```{figure} images/OD1/win_miniforge_prompt.png
 :label: fig-win-miniforge-prompt
 :width: 480
 Windowsの検索入力に、miniforgeと入力して、miniforge promptをクリックする
@@ -369,14 +369,14 @@ conda init cmd.exe
 ```
 この命令は、インストールしたPythonをVSCodeから使えるようにするために必要です。 **注意**：必ず日本語変換はOFFにして半角英数字の状態でタイプしてください。
 
-```{figure} images/win_miniforge_prompt2.png
+```{figure} images/OD1/win_miniforge_prompt2.png
 :label: fig-win-miniforge-prompt2
 命令を入力した画面。[Enter]キーを押して、命令を実行します。
 ```
 
 すると、命令を実行した結果が次々に出力されます：
 
-```{figure} images/win_miniforge_prompt3.png
+```{figure} images/OD1/win_miniforge_prompt3.png
 :label: fig-win-miniforge-prompt3
 ```
 
@@ -394,7 +394,7 @@ conda init cmd.exe
 2. ダウンロードフォルダにある`FDS_Python_setup.yml`を、**専用フォルダ**に移動して下さい。
 3. VSCodeで、[ファイル]メニュー→[フォルダを開く]をクリックし、専用フォルダを選択して開いて下さい。[下図](#fig-vscode-env0)のように、VSCode画面左側にエクスプローラーという画面があり、そこには専用フォルダの中に`FDS_Python_setup.yml`が見えていれば、OKです。
 
-```{figure} images/vscode_env0.png
+```{figure} images/OD1/vscode_env0.png
 :label: fig-vscode-env0
 :width: 100%
 最初に設定した専用フォルダを、VSCodeで開いた状態。
@@ -404,7 +404,7 @@ conda init cmd.exe
   * VSCode画面右上の[サインイン]の右側に並ぶ4つの四角形アイコンのうち、(1)右から2番目をクリック
   * (2)VSCode画面下側に出現した[ターミナル]画面の(3)下向き矢印をクリックして、(4)`Command Prompt`をクリック
 
-```{figure} images/vscode_dsenv_prepare.png
+```{figure} images/OD1/vscode_dsenv_prepare.png
 :label: fig-vscode-dsenv-prepare
 :width: 100%
 (1)(2)(3)(4)の手順通りに作業しましょう。
@@ -415,7 +415,7 @@ conda init cmd.exe
 ```
 conda env create -f FDS_Python_setup.yml
 ```
-```{figure} images/vscode_env2.png
+```{figure} images/OD1/vscode_env2.png
 :label: fig-vscode-env2
 :width: 100%
 VSCode内のコマンドプロンプトに、コマンドを入力した様子。
@@ -423,7 +423,7 @@ VSCode内のコマンドプロンプトに、コマンドを入力した様子�
 
 6. Python環境が作られていきます。[下図](#fig-vscode-env3)のような画面になったら終了です。
 
-```{figure} images/vscode_env3.png
+```{figure} images/OD1/vscode_env3.png
 :label: fig-vscode-env3
 :width: 100%
 Python環境作成完了！
@@ -445,7 +445,7 @@ python -m ipykernel install --user --name ds-python --display-name "Python(DS)"
 
 下の図では、コマンド1、コマンド2を順々に実行していった様子が示されています。
 
-```{figure} images/win_python_kernel.png
+```{figure} images/OD1/win_python_kernel.png
 :label: fig-win-python-kernel
 ```
 
@@ -474,7 +474,7 @@ python -m ipykernel install --user --name ds-python --display-name "Python(DS)"
 
 [下図](#fig-rstudio-init1)のように、`FDS_R_setup.R`のプログラムがRStudioに表示されます。
 
-```{figure} images/rstudio_init1.png
+```{figure} images/OD1/rstudio_init1.png
 :label: fig-rstudio-init1
 :width: 80%
 RStudioに、`FDS_R_setup.R`を読み込む
@@ -482,7 +482,7 @@ RStudioに、`FDS_R_setup.R`を読み込む
 
 プログラムの右上に`Source`というボタンがあるので、クリックして実行します。次のような警告メッセージが表示されたら、[はい(Y)]**ではなく[いいえ(N)]を選択**して下さい。
 
-```{figure} images/rstudio_init2.png
+```{figure} images/OD1/rstudio_init2.png
 :label: fig-rstudio-init2
 :width: 80%
 警告⚠️メッセージがポップアップする→ いいえ(N)をクリック。
@@ -491,14 +491,14 @@ RStudioに、`FDS_R_setup.R`を読み込む
 RStudioがプログラムを実行すると、この授業でデータ分析に必要なライブラリがインストールされていきます。少し時間がかかります。
 [下図](#fig-rstudio-init3)のように、「ダウンロードされたパッケージは、以下にあります」というメッセージが表示されたら、作業終了です。
 
-```{figure} images/rstudio_init3.png
+```{figure} images/OD1/rstudio_init3.png
 :label: fig-rstudio-init3
 :width: 80%
 インストール終了画面
 ```
 
 インストールが終了したら、RStudioを終了してください。Quit R Sessionという確認メッセージが出たら、`Don't Save`を選択して終了します。
-```{figure} images/rstudio_quit.png
+```{figure} images/OD1/rstudio_quit.png
 :label: fig-rstudio-quit
 :width: 60%
 [Don't Save]を選択する。
@@ -529,7 +529,7 @@ RStudioがプログラムを実行すると、この授業でデータ分析に�
 
 [https://code.visualstudio.com/download](https://code.visualstudio.com/download)をクリックして、VSCodeのインストールページに飛びます。
 
-```{figure} images/win_vscode_download0.png
+```{figure} images/OD1/win_vscode_download0.png
 :label: fig-win-vscode-download0-2
 :width: 60%
 VSCode (Visual Studio Code)のダウンロードページ
@@ -537,14 +537,14 @@ VSCode (Visual Studio Code)のダウンロードページ
 
 **MacOS**のリンクをクリックして、インストーラーをダウンロードします。[下図](#fig-mac-vscode-install)のように、ダウンロードフォルダに、`VSCode-dawin-XXX.dmg`のようなディスクイメージを見つけたら、これをダブルクリックし、アプリケーションフォルダにドラッグすれば、インストール完了です。
 
-```{figure} images/mac_vscode_install.png
+```{figure} images/OD1/mac_vscode_install.png
 :label: fig-mac-vscode-install
 :width: 100%
 ```
 
 VSCodeは、アプリケーションフォルダの中に入っています。ダブルクリックして起動してください。
 
-```{figure} images/mac_vscode_loc.png
+```{figure} images/OD1/mac_vscode_loc.png
 :label: fig-mac-vscode-loc
 :width: 100%
 ```
@@ -562,7 +562,7 @@ VSCodeは、アプリケーションフォルダの中に入っています。�
 
 拡張はVSCode左側に出現する「Primaryサイドバー」からインストールします。サイドバーを出すために、VSCode右上にある4つの小さなアイコンのうち、左から2番目にあるアイコンをクリックしてください。
 
-```{figure} images/toggle_toolbar.png
+```{figure} images/OD1/toggle_toolbar.png
 :label: fig-toggle-toolbar-2
 :width: 100%
 黄色の矢印のアイコンをクリック。"Toggle Primary Side Bar"というポップアップが目印
@@ -574,7 +574,7 @@ VSCodeは、アプリケーションフォルダの中に入っています。�
 
 Primary サイドバーから、(1)左端にある拡張機能ボタンをクリックし、(2)`Extensions: Marketplace`という入力欄に`Japanese`と入力すると、(3) 拡張機能のトップに「Japanese Languae Pack」というのが出てきます（地球儀のアイコンが目印）。右下にある「Install」をクリックしてインストールを開始します。
 
-```{figure} images/JL_install.png
+```{figure} images/OD1/JL_install.png
 :label: fig-jl-install-2
 :width: 100%
 黄色の文字を順番に操作。Japanese Language Pack for Visual Studio Codeをインストールする。
@@ -583,7 +583,7 @@ Primary サイドバーから、(1)左端にある拡張機能ボタンをクリ
 インストールが完了しても、すぐには日本語表示にはなりません。VSCodeウィンドウ右下にある
 `Change Language and Restart`というボタンをクリックしてください。
 
-```{figure} images/JL_install2.png
+```{figure} images/OD1/JL_install2.png
 :label: fig-jl-install2-2
 :width: 100%
 日本語環境をONにするには、VSCodeを再起動する必要があります。
@@ -601,7 +601,7 @@ Primary サイドバーから、(1)左端にある拡張機能ボタンをクリ
 
 Japanese Language Packをインストールした**拡張機能:マーケットプレース**に、`jupyter`と入力します。すると拡張機能リストのトップに「`Jupyter`」が出現するので、右下の[インストール]をクリックして、拡張機能をインストールします。
 
-```{figure} images/Jupyter_install1.png
+```{figure} images/OD1/Jupyter_install1.png
 :label: fig-jupyter-install1-3
 :width: 100%
 `jupyter`と入力して、TOPでヒットした「Jupyter」をインストールする。
@@ -609,7 +609,7 @@ Japanese Language Packをインストールした**拡張機能:マーケット�
 
 この`Jupyter`拡張は、4つの追加的な拡張もまとめてインストールします。
 
-```{figure} images/Jupyter_install1.png
+```{figure} images/OD1/Jupyter_install1.png
 :label: fig-jupyter-install1-4
 :width: 100%
 Jupyter機能および関連する4つの追加機能が、まとめてインストールされる。
@@ -618,7 +618,7 @@ Jupyter機能および関連する4つの追加機能が、まとめてインス
 ### Python拡張のインストール
 拡張機能の検索入力欄に、`Python`と入力してヒットした**Python**を同様にインストールしてください。
 
-```{figure} images/vscode_ext_python.png
+```{figure} images/OD1/vscode_ext_python.png
 :label: fig-vscode-ext-python-2
 :width: 100%
 インストールが終わったあとの状態。Python関連パッケージも一緒にインストールされる。
@@ -636,7 +636,7 @@ Python環境は、**Miniforge3**(ミニフォージ3)という仮想環境シス
 
 https://conda-forge.org/download/ をWebブラウザで開きます。`macOS arm64 (Apple Sillicon)`をクリックして、Miniforgeのインストーラーをダウンロードします。
 
-```{figure} images/mamba_install0.png
+```{figure} images/OD1/mamba_install0.png
 :label: fig-mamba-install0-2
 :width: 80%
 Miniforge3 Installer (Mac用)のダウンロード
@@ -646,7 +646,7 @@ Miniforge3 Installer (Mac用)のダウンロード
 
 次に、Finderから[移動]→[ユーティリティ]をクリックして、ユーティリティアプリのフォルダを表示します。この中に**ターミナル**または**ターミナル\.app**というアプリを見つけて、起動してください。
 
-```{figure} images/mac_mamba_install0.png
+```{figure} images/OD1/mac_mamba_install0.png
 :label: fig-mac-mamba-install0
 :width: 100%
 ```
@@ -661,7 +661,7 @@ bash Miniforge3-Darwin-arm64.sh
 ```
 インストールが始まります。
 
-```{figure} images/mac_mamba_install1.png
+```{figure} images/OD1/mac_mamba_install1.png
 :label: fig-mac-mamba-install1
 :width: 100%
 ターミナル.appの画面。コマンドを実行します。
@@ -671,7 +671,7 @@ bash Miniforge3-Darwin-arm64.sh
 
 ターミナルには英語しか表示されないので、ここはひとつひとつ確認しながら進めていきましょう。
 
-```{figure} images/mac_mamba_install2.png
+```{figure} images/OD1/mac_mamba_install2.png
 :label: fig-mac-mamba-install2
 :width: 80%
 "Please, press ENTER to continue"→ [ENTER]キー
@@ -681,12 +681,12 @@ bash Miniforge3-Darwin-arm64.sh
 
 最初にソフトウエア利用条件が長々と表示されますが、読まずにスペースキーを1回ずつ押していきます。
 
-```{figure} images/mac_mamba_install3.png
+```{figure} images/OD1/mac_mamba_install3.png
 :label: fig-mac-mamba-install3
 :width: 60%
 ```
 
-```{figure} images/mac_mamba_install4.png
+```{figure} images/OD1/mac_mamba_install4.png
 :label: fig-mac-mamba-install4
 :width: 60%
 ```
@@ -695,7 +695,7 @@ bash Miniforge3-Darwin-arm64.sh
 
 最後に`Do you accept the license terms? [yes|no]`と聞かれるので、`yes`と入力します。
 
-```{figure} images/mac_mamba_install5.png
+```{figure} images/OD1/mac_mamba_install5.png
 :label: fig-mac-mamba-install5
 :width: 60%
 ```
@@ -703,7 +703,7 @@ bash Miniforge3-Darwin-arm64.sh
 **インストール先フォルダの指定**
 
 何も入力せずに、[ENTER]キーを押して下さい。
-```{figure} images/mac_mamba_install6.png
+```{figure} images/OD1/mac_mamba_install6.png
 :label: fig-mac-mamba-install6
 :width: 60%
 ```
@@ -714,7 +714,7 @@ bash Miniforge3-Darwin-arm64.sh
 
 ここでは、`yes`と入力して、[ENTER]キーを押します。
 
-```{figure} images/mac_mamba_install7.png
+```{figure} images/OD1/mac_mamba_install7.png
 :label: fig-mac-mamba-install7
 :width: 60%
 Proceed with initialization? [yes|no]は、`yes`を選択！
@@ -731,7 +731,7 @@ Proceed with initialization? [yes|no]は、`yes`を選択！
 2. ダウンロードフォルダにある`FDS_Python_setup.yml`を、**専用フォルダ**に移動して下さい。
 3. VSCodeで、[ファイル]メニュー→[フォルダを開く]をクリックし、専用フォルダを選択して開いて下さい。[下図](#fig-mac-python-create-dsenv)のように、VSCode画面左側にエクスプローラーという画面があり、そこには専用フォルダの中に`FDS_Python_setup.yml`が見えていれば、OKです。
 
-```{figure} images/mac_python_create_dsenv.png
+```{figure} images/OD1/mac_python_create_dsenv.png
 :label: fig-mac-python-create-dsenv
 :width: 100%
 専用フォルダに`FDS_Python_setup.yml`を保存し、VSCodeターミナルを起動して、コマンドを入力する。
@@ -750,7 +750,7 @@ conda env create -f FDS_Python_setup.yml
 
 授業で使うPythonライブラリが**追加で**インストールされます。
 
-```{figure} images/mac_python_dsenv_installing.png
+```{figure} images/OD1/mac_python_dsenv_installing.png
 :label: fig-mac-python-dsenv-installing
 :width: 60%
 追加インストール作業は数分かかります。
@@ -758,7 +758,7 @@ conda env create -f FDS_Python_setup.yml
 
 終了すると、VSCodeターミナルは下のような画面になります。
 
-```{figure} images/mac_python_dsenv_finish.png
+```{figure} images/OD1/mac_python_dsenv_finish.png
 :label: fig-mac-python-dsenv-finish
 :width: 80%
 インストール終了。
@@ -781,7 +781,7 @@ python -m ipykernel install --user --name ds-python --display-name "Python(DS)"
 
 下の図では、コマンド1、コマンド2を順々に実行していった様子が示されています。
 
-```{figure} images/mac_python_dsenv_kernel.png
+```{figure} images/OD1/mac_python_dsenv_kernel.png
 :label: fig-mac-python-dsenv-kernel
 ```
 
@@ -809,7 +809,7 @@ python -m ipykernel install --user --name ds-python --display-name "Python(DS)"
 
 [下図](#fig-rstudio-init1-2)のように、`FDS_R_setup_mac.R`のプログラムがRStudioに表示されます。
 
-```{figure} images/rstudio_init1.png
+```{figure} images/OD1/rstudio_init1.png
 :label: fig-rstudio-init1-2
 :width: 80%
 RStudioに、`FDS_R_setup_mac.R`を読み込む
@@ -817,7 +817,7 @@ RStudioに、`FDS_R_setup_mac.R`を読み込む
 
 プログラムの右上に`Source`というボタンがあるので、クリックして実行します。次のような警告メッセージが表示されたら、[はい(Y)]**ではなく[いいえ(N)]を選択**して下さい。
 
-```{figure} images/rstudio_init2.png
+```{figure} images/OD1/rstudio_init2.png
 :label: fig-rstudio-init2-2
 :width: 80%
 警告⚠️メッセージがポップアップする→ いいえ(N)をクリック。
@@ -826,14 +826,14 @@ RStudioに、`FDS_R_setup_mac.R`を読み込む
 RStudioがプログラムを実行すると、この授業でデータ分析に必要なライブラリがインストールされていきます。少し時間がかかります。
 [下図](#fig-rstudio-init3-2)のように、「ダウンロードされたパッケージは、以下にあります」というメッセージが表示されたら、作業終了です。
 
-```{figure} images/rstudio_init3.png
+```{figure} images/OD1/rstudio_init3.png
 :label: fig-rstudio-init3-2
 :width: 80%
 インストール終了画面
 ```
 
 インストールが終了したら、RStudioを終了してください。Quit R Sessionという確認メッセージが出たら、`Don't Save`を選択して終了します。
-```{figure} images/rstudio_quit.png
+```{figure} images/OD1/rstudio_quit.png
 :label: fig-rstudio-quit-2
 :width: 60%
 [Don't Save]を選択する。
@@ -858,14 +858,14 @@ RStudioがプログラムを実行すると、この授業でデータ分析に�
 
 ダウンロードしたこれら2つのファイルを、**専用フォルダ**に移動(保存)して下さい。
 
-```{figure} images/confirm0.png
+```{figure} images/OD1/confirm0.png
 :label: fig-confirm0
 ダウンロードした動作確認ファイル(2つ)を、専用フォルダに移動する。
 ```
 
 VSCodeを開いて、「ファイル」メニューから「フォルダーを開く」で、専用フォルダを開いて下さい。
 
-```{figure} images/confirm1.png
+```{figure} images/OD1/confirm1.png
 :label: fig-confirm1
 専用フォルダをVSCodeで開いた状態
 ```
@@ -874,7 +874,7 @@ VSCodeを開いて、「ファイル」メニューから「フォルダーを�
 
 まずは、(1)`OD1_python.ipynb`というPython文書の内容をクリックして表示します。これは「**Jupyter Notebook**」と呼ばれる世界標準のフォーマットで作られています。
 
-```{figure} images/confirm_python.png
+```{figure} images/OD1/confirm_python.png
 :label: fig-confirm-python
 動作確認プログラム(Python)を実行する準備
 ```
@@ -883,7 +883,7 @@ VSCodeの中で、私たちの書いたプログラムを実行するアプリ�
 
 [下図](#fig-confirm-python-result)のようにプログラムの左側にある▶️アイコンをクリックすると、プログラムが実行されます。
 
-```{figure} images/confirm_python_result.png
+```{figure} images/OD1/confirm_python_result.png
 :label: fig-confirm-python-result
 
 ```
@@ -898,14 +898,14 @@ VSCodeの中で、私たちの書いたプログラムを実行するアプリ�
 
 Rプログラムを実行するカーネルは、これまでの作業で「**R(DS)**」という名前で登録してきました。Python動作確認と同様、[下図](#fig-confirm-r)の手順でR(DS)カーネルを準備してください。
 
-```{figure} images/confirm_R.png
+```{figure} images/OD1/confirm_R.png
 :label: fig-confirm-r
 
 ```
 
 [下図](#fig-confirm-r-result)のようにプログラムの左側にある▶️アイコンをクリックすると、プログラムが実行されます。
 
-```{figure} images/confirm_R_result.png
+```{figure} images/OD1/confirm_R_result.png
 :label: fig-confirm-r-result
 
 ```
