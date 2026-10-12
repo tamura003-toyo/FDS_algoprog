@@ -315,7 +315,17 @@ Miniforge3 Installer (Windows用)のダウンロード
 Just me (recommended)にチェックが入っていることを確認して、[Next >]をクリック
 ```
 
-**Destination Folder** (インストールするフォルダ)は、`C:¥Users¥(あなたのユーザー名)¥miniforge3`に設定されています。そのままにしておきます。
+**Destination Folder** (インストールするフォルダ)は、`C:¥Users¥(あなたのユーザー名)¥miniforge3`に設定されています。通常はそのままにしておきます。
+
+```{warning} ユーザー名に半角スペースが含まれる場合
+Windowsのユーザー名に半角スペースが含まれていると、既定のインストール先では「not writable」などのエラーが出ることがあります。その場合は、次のようにインストール先を変更してください。
+
+1. エクスプローラーで「PC」→「ローカルディスク (C:)」を開きます。
+2. Cドライブ直下に、`miniforge3` という名前のフォルダを新規作成します。作成する場所は **`C:¥miniforge3`** です。
+3. インストーラーの **Destination Folder** を **`C:¥miniforge3`** に変更して、[Next >]をクリックします。
+
+日本語環境では、パスの区切りが「¥」ではなく「\」と表示される場合があります。`C:¥miniforge3` と `C:\miniforge3` は同じ場所を指します。
+```
 
 ```{figure} images/OD1/miniforge3_install3.png
 :label: fig-miniforge3-install3
