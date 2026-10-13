@@ -398,6 +398,38 @@ conda init cmd.exe
 
 と表示されていることを確認します。確認したら、このMiniforge Promptは終了して下さい。
 
+(windows-conda-troubleshooting)=
+::::{warning} トラブルシューティング：condaが認識されない場合
+Miniforge Promptで `conda init cmd.exe` を実行しても「condaが認識されません」などと表示される場合は、まず次を実行します。コマンドは半角英数字で入力してください。
+
+```bat
+conda --version
+```
+
+バージョンが表示されない場合は、次の手順で確認してください。以下は **`C:\miniforge3` にインストールした場合**の手順です。別の場所にインストールした場合は、コマンド内のパスを実際のインストール先に置き換えてください。
+
+1. **Miniforge Prompt** で、フルパスを指定して実行します。引用符も含めて入力してください。
+
+   ```bat
+   "C:\miniforge3\condabin\conda.bat" --version
+   ```
+
+2. バージョンが表示されたら、次を1行ずつ実行します。
+
+   ```bat
+   call "C:\miniforge3\condabin\conda.bat" activate
+   conda --version
+   conda init cmd.exe
+   ```
+
+3. エラーなく完了したら、Miniforge Promptと、開いているVSCodeのすべてのウィンドウを閉じます。
+4. VSCodeを開き直し、ターミナル右上の「∨」から **Command Prompt（コマンドプロンプト）** を選んで、新しいターミナルを開きます。そこで `conda --version` を実行し、バージョンが表示されることを確認してください。
+
+`conda init cmd.exe` はコマンドプロンプト向けの設定です。**PowerShellではなく、Command Promptを使用してください。**
+
+フルパスで実行しても「ファイルが見つからない」と表示される場合は、エクスプローラーで `C:\miniforge3\condabin\conda.bat` があるか確認してください。インストール先が異なるか、インストールが完了していない可能性があります。別のエラーが出る場合も含め、先へ進まず、**実行したコマンド・エラー全文・インストール先**を教員に伝えてください。
+::::
+
 次に、先ほどインストールしたVSCodeで作業します。
 
 1. まず、[ここ](https://www.dropbox.com/scl/fi/7sg4n0sykm62del9a9b29/FDS_Python_setup.yml?rlkey=mks4ryzro0w8d7kkzamk51g1q&dl=1) をクリックして、`FDS_Python_setup.yml`というファイルをダウンロードします。
