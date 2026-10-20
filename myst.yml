@@ -9,6 +9,10 @@ project:
   toc:
     - file: index.md
     - file: OD1_vscode_setup.md
+    - file: 2_Program_DataTypes.md
+      title: 第2回：プログラムとデータ型
+    - file: 3_R_DataWrangling.md
+      title: 第3回：Rによるデータラングリング
 site:
   template: book-theme
   title: アルゴリズムとプログラミング
