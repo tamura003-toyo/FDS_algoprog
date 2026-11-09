@@ -12,3 +12,4 @@ title: アルゴリズムとプログラミング
 
 - [第2回：プログラムとデータ型](2_Program_DataTypes.md)
 - [第3回：Rによるデータラングリング](3_R_DataWrangling.md)
+- [第5回：Rによる回帰分析](5_R_Regression.md)
